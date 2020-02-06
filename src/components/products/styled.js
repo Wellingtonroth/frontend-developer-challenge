@@ -13,18 +13,20 @@ export const Title = styled.h1`
 `;
 
 export const Content = styled.div`
-	width: 64%;
-	margin: auto;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 64%;
+	margin: auto;
 `;
 
 export const Box = styled.div`
-	width: 23%;
+	width: 20%;
 	margin-bottom: 40px;
+	margin-right: 41px;
 
-	&:not(:last-child) {
-		margin-right: 41px;
+	&:nth-child(4n) {
+		margin-right: 7px;
 	}
 `;
 
