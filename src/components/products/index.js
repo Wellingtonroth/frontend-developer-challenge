@@ -1,14 +1,13 @@
 import React from "react";
 import * as S from "./styled";
 
-function Products({ products }) {
-
+function Products({ products, nextPage, fetchData }) {
   return (
     <S.Section>
       <S.Title>Sua seleção especial</S.Title>
       <S.Content>
         {products && products.map((product, index) =>
-          <S.Box>
+          <S.Box key={index}>
             <S.Image alt="imagem do produto" src={product.image} />
             <S.Information>
               <S.Product>{product.name}</S.Product>
@@ -22,7 +21,7 @@ function Products({ products }) {
         )}
       </S.Content>
       <S.BoxMore>
-        <S.More>Ainda mais produtos aqui!</S.More>
+        <S.More onClick={() => fetchData(`https://${nextPage}`)}>Ainda mais produtos aqui!</S.More>
       </S.BoxMore>
     </S.Section>
   );

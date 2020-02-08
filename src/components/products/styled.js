@@ -76,9 +76,9 @@ export const Buy = styled.button`
 `;
 
 export const BoxMore = styled.div`
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	display: flex;
 `;
 
 export const More = styled.button`

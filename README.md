@@ -1,7 +1,5 @@
 # Desafio | Frontend Developer
 
-> **ATENÇÃO:** Antes de começar, se [cadastre na vaga](https://linxneemuchaordic.recruiterbox.com/) via Recruiterbox **=]**
-
 Olá! Seja bem vindo ao teste para a vaga de **Frontend Developer** para o time de **Customer Operations** da Linx Impulse.
 
 Preparamos um teste que abordará seus conhecimentos em **HTML**, **CSS** e **Javascript**. Você será encaixado na vaga de acordo com seu resultado.
@@ -45,28 +43,3 @@ Assim que obter os dados, você deverá implementar os seguintes pontos:
     - **[Netifly](https://www.netlify.com/)**
     - Qualquer outro semelhante
 - Assim que concluir o seu desafio, abra um **[pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)** para o [repositório do desafio](https://github.com/iurykrieger/frontend-developer-challenge) com suas alterações e com o link do *live preview* na descrição;
-
----
-
-## Dicas
-
-> Crie uma estrutura de arquivos organizada para suas implementações
-
-> Construa o CSS de forma bem estruturada e em um arquivo separado.
-
-> Evite poluir o escopo global do Javascript
-
-> Documente suas funções e seja o mais conciso possível ao escrever seu código
-
-> Seu README.md deve conter as instruções necessárias para qualquer pessoa fazer seu projeto funcionar
-
-> Your code will be better understood in English ;)
-
-## Não conseguiu fazer tudo?
-A sua forma de priorizar a entrega também vai ser considerada. Escreva no README.md o que você conseguiu e não conseguiu implementar, descrevendo porque você preferiu priorizar desta maneira.
-
----
-
-Em caso de dúvidas, [abra uma issue](https://github.com/chaordic/frontend-intern-challenge/issues).
-
-**Boa sorte =]**
