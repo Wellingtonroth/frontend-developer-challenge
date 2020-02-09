@@ -3,7 +3,7 @@
 O projeto consiste no layout de uma landing page com uma grade de produtos e um formulário de newsletter. 
 Consultando uma API de forma paginada, sendo que cada página consultada retorna informações de 8 novos produtos.
 Layout adaptável para mobile.
-Live Preview em : LINK DO LIVE PREVIEW
+Live Preview em : [link aq](http://frontend-linx.netlify.com)
 
 ---
 
@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido no VSCode com as seguintes tecnologias:
 
 - React Hooks
 - Styled-Components
-- TECNOLOGIA DO LIVE PREVIEW
+- Netlify
 
 ---
 
