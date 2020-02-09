@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
 	text-align: center;
-	padding: 60px 0 40px 0;
+	padding: 60px 16px 40px 16px;
 	background-color: #707070;
 	color: #ffffff;
 `;
@@ -11,11 +11,19 @@ export const Title = styled.h1`
 	margin: 0;
 	font-weight: 400;
 	font-size: 1.25rem;
+
+	@media (max-width: 767px) {
+		font-size: 1rem;
+	}
 `;
 
 export const SubTitle = styled.h2`
 	margin: 0 0 5px 0;
 	font-size: 2.5rem;
+	
+	@media (max-width: 767px) {
+		font-size: 1.5rem;
+	}
 `;
 
 export const Text = styled.p`
@@ -48,5 +56,15 @@ export const Box = styled.li`
 
 	&:not(:last-child) {
 		margin-right: 40px;
+	}
+
+	@media (max-width: 767px) {
+		margin-top: 30px;
+		padding: 0 4px;
+		font-size: 0.75rem;
+
+		&:not(:last-child) {
+			margin-right: 6px;
+		}
 	}
 `;

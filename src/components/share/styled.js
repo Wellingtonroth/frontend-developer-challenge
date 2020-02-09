@@ -21,19 +21,40 @@ export const Box = styled.div`
     justify-content: center;
     text-align: left;
     padding-bottom: 50px;
+
+    @media (max-width: 767px) {
+        align-items: center;
+        flex-direction: column;
+	}
 `;
 
 export const Type = styled.span`
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
     font-size: 0.75rem;
+
+    @media (min-width: 768px) {
+        &:first-child {
+            margin-right: 40px;
+            padding-bottom: 8px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &:first-child {
+            padding-bottom: 8px;
+        }
+    }
 `;
 
 export const Input = styled.input`
     margin-top: 7px;
     width: 340px;
     height: 30px;
+
+    @media (max-width: 767px) {
+        width: 280px;
+	}
 `;
 
 export const Send = styled.div`

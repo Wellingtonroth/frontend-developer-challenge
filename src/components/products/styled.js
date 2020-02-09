@@ -18,6 +18,10 @@ export const Content = styled.div`
 	flex-wrap: wrap;
 	width: 64%;
 	margin: auto;
+
+	@media (max-width: 768px) {
+		width: 96%;
+	}
 `;
 
 export const Box = styled.div`
@@ -27,6 +31,11 @@ export const Box = styled.div`
 
 	&:nth-child(4n) {
 		margin-right: 7px;
+	}
+
+	@media (max-width: 767px) {
+		margin-right: 0px;
+    	width: 51%;
 	}
 `;
 
@@ -68,7 +77,7 @@ export const Split = styled.div`
 
 export const Buy = styled.button`
 	width: 100%;
-	padding: 6px 68px;
+	padding: 6px 0;
 	color: #888888;
 	border: 1px solid #707070;
 	border-radius: 4px;
